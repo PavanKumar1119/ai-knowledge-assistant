@@ -183,23 +183,7 @@ http://localhost:8501
       Context-Aware Response
 ```
 
----
 
-# 📸 Application Preview
-
-### Home Page
-
-Upload one or multiple PDF documents to build a searchable knowledge base.
-
-### Knowledge Base Creation
-
-Documents are automatically processed, chunked, embedded, and stored in ChromaDB.
-
-### Conversational Question Answering
-
-Ask natural language questions and receive context-aware responses generated using Google Gemini.
-
----
 
 # 💡 Skills Demonstrated
 
