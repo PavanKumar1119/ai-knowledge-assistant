@@ -1,0 +1,34 @@
+# --- Environment & secrets ---
+.env
+.streamlit/secrets.toml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+.venv/
+venv/
+env/
+
+# --- Data & vector store (regenerated at runtime) ---
+data/*
+!data/.gitkeep
+chroma_db/*
+!chroma_db/.gitkeep
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Jupyter ---
+.ipynb_checkpoints/
